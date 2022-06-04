@@ -1,0 +1,37 @@
+{
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "skim",
+          "pathName": "pages/skim/skim",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "reserve",
+          "pathName": "pages/reserve/reserve",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "about",
+          "pathName": "pages/about/about",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "me",
+          "pathName": "pages/me/me",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "projectname": "%E7%A0%94%E8%AE%A8%E9%97%B4%E9%A2%84%E7%BA%A6",
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html"
+}

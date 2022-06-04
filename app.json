@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/skim/skim",
+    "pages/reserve/reserve",
+    "pages/preview/preview",
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "list": [
+        {   
+            "selectedIconPath": "images/index_icon/course_press.png",
+            "iconPath": "images/index_icon/course.png",
+            "pagePath": "pages/index/index",
+            "text": "主页"
+        },
+        {   
+            "selectedIconPath": "images/index_icon/index_press.png",
+            "iconPath": "images/index_icon/index.png",
+            "pagePath": "pages/about/about",
+            "text": "关于"
+        },
+        {   
+            "selectedIconPath": "images/index_icon/my_press.png",
+            "iconPath": "images/index_icon/my.png",
+            "pagePath": "pages/me/me",
+            "text": "我的"
+        }
+    ],
+    "position": "bottom"
+  }
+}
